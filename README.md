@@ -123,6 +123,7 @@ roslaunch turtlebot_navigation turtlebot_move_base.launch
 
 ## Deployment:
 <br> Videos can be found for each implementation step of Gmapping and Path Planning.
+<br>[Path Plannig](Path_planning.mp4)
 <br> Video can be found explaining Controller tuning.
 
 ## Authors:
