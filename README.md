@@ -26,7 +26,8 @@ sudo apt-get install ros-kinetic-dwa-local-planner
 ```
 
 ## Installation:
-<br>Open the folder (10595507_autonomous_nav) it contains a folder named autonomous_nav_wss which is a meta package that contains multiple packages.
+<br>Open the folder (10595507_autonomous_nav) it contains a folder named autonomous_nav_wss which is a meta package that contains multiple packages. 
+<br>Unzip the folder
 
 <br>first step: catkin_make the package turtlebot_msgs.
 ```bash
@@ -108,13 +109,24 @@ source source_all.bash
 roslaunch turtlebot_teleop keyboard_teleop.launch
 ```
 ### Path_Plannig
-
+<br>to launch the global planner, open a new terminal and launch the file. 
+```bash
+cd ~/10595507_autonomous_nav/autonomous_navigation_wss
+source source_all.bash
+roslaunch turtlebot_navigation turtlebot_move_base.launch
+```
+<br>then,by looking at Rviz, we can add new topic as well. 
+<br>add >> by topic >> /move_base >> /global_planner.
+<br>add >> by topic >> /move_base >> /DWAPlannerROS >>/local_plan.
+<br>add >> by topic >> /move_base >> /global_costmap.
+<br>add >> by topic >> /move_base >> /local_costmap.
 
 ## Deployment:
-<br>
+<br> Videos can be found for each implementation step of Gmapping and Path Planning.
+<br> Video can be found explaining Controller tuning.
 
 ## Authors:
-<br>
-
+<br> **Mario Gianni**.Intial Developer
+<br> **Nadhir Mezouar**. Implementing Turtlebot Simulation and controller develpment
 ## Acknowledgments:
-<br>
+<br> Thanks to Dr.Mario Gianni for the great course.
