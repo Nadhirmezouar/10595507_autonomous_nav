@@ -125,7 +125,7 @@ roslaunch turtlebot_navigation turtlebot_move_base.launch
 <br> Videos can be found for each implementation step of Gmapping and Path Planning.
 <br>[Path Plannig](Path_planning.mp4)
 <br> Video can be found explaining Controller tuning.
-
+<br>[Controller Parameters Tuning](Controller-tuning.mp4)
 ## Authors:
 <br> **Mario Gianni**.Intial Developer
 <br> **Nadhir Mezouar**. Implementing Turtlebot Simulation and controller develpment
