@@ -29,3 +29,16 @@ sudo apt-get install ros-kinetic-dwa-local-planner
 
 ## Installation:
 <br>
+
+
+## Running the Turtlebot Simulation Package:
+<br>
+
+## Deployment:
+<br>
+
+## Authors:
+<br>
+
+## Acknowledgments:
+<br>
